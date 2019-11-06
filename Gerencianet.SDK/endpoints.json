@@ -1,0 +1,142 @@
+﻿{
+  "CreateCharge": {
+    "route": "/charge",
+    "method": "POST"
+  },
+  "DetailCharge": {
+    "route": "/charge/:id",
+    "method": "GET"
+  },
+  "UpdateChargeMetadata": {
+    "route": "/charge/:id/metadata",
+    "method": "PUT"
+  },
+  "UpdateBillet": {
+    "route": "/charge/:id/billet",
+    "method": "PUT"
+  },
+  "PayCharge": {
+    "route": "/charge/:id/pay",
+    "method": "POST"
+  },
+  "CancelCharge": {
+    "route": "/charge/:id/cancel",
+    "method": "PUT"
+  },
+  "CreateCarnet": {
+    "route": "/carnet",
+    "method": "POST"
+  },
+  "DetailCarnet": {
+    "route": "/carnet/:id",
+    "method": "GET"
+  },
+  "UpdateParcel": {
+    "route": "/carnet/:id/parcel/:parcel",
+    "method": "PUT"
+  },
+  "UpdateCarnetMetadata": {
+    "route": "/carnet/:id/metadata",
+    "method": "PUT"
+  },
+  "GetNotification": {
+    "route": "/notification/:token",
+    "method": "GET"
+  },
+  "GetPlans": {
+    "route": "/plans",
+    "method": "GET"
+  },
+  "CreatePlan": {
+    "route": "/plan",
+    "method": "POST"
+  },
+  "DeletePlan": {
+    "route": "/plan/:id",
+    "method": "DELETE"
+  },
+  "CreateSubscription": {
+    "route": "/plan/:id/subscription",
+    "method": "POST"
+  },
+  "DetailSubscription": {
+    "route": "/subscription/:id",
+    "method": "GET"
+  },
+  "PaySubscription": {
+    "route": "/subscription/:id/pay",
+    "method": "POST"
+  },
+  "CancelSubscription": {
+    "route": "/subscription/:id/cancel",
+    "method": "PUT"
+  },
+  "UpdateSubscriptionMetadata": {
+    "route": "/subscription/:id/metadata",
+    "method": "PUT"
+  },
+  "GetInstallments": {
+    "route": "/installments",
+    "method": "GET"
+  },
+  "ResendBillet": {
+    "route": "/charge/:id/billet/resend",
+    "method": "POST"
+  },
+  "CreateChargeHistory": {
+    "route": "/charge/:id/history",
+    "method": "POST"
+  },
+  "ResendCarnet": {
+    "route": "/carnet/:id/resend",
+    "method": "POST"
+  },
+  "ResendParcel": {
+    "route": "/carnet/:id/parcel/:parcel/resend",
+    "method": "POST"
+  },
+  "CreateCarnetHistory": {
+    "route": "/carnet/:id/history",
+    "method": "POST"
+  },
+  "CancelCarnet": {
+    "route": "/carnet/:id/cancel",
+    "method": "PUT"
+  },
+  "CancelParcel": {
+    "route": "/carnet/:id/parcel/:parcel/cancel",
+    "method": "PUT"
+  },
+  "LinkCharge": {
+    "route": "/charge/:id/link",
+    "method": "POST"
+  },
+  "ChargeLink": {
+    "route": "/charge/:id/link",
+    "method": "POST"
+  },
+  "UpdateChargeLink": {
+    "route": "/charge/:id/link",
+    "method": "PUT"
+  },
+  "UpdatePlan": {
+    "route": "/plan/:id",
+    "method": "PUT"
+  },
+  "CreateSubscriptionHistory": {
+    "route": "/subscription/:id/history",
+    "method": "POST"
+  },
+  "SettleCharge": {
+    "route": "/charge/:id/settle",
+    "method": "PUT"
+  },
+  "SettleCarnetParcel": {
+    "route": "/carnet/:id/parcel/:parcel/settle",
+    "method": "PUT"
+  },
+  "OneStep": {
+    "route": "/charge/one-step",
+    "method": "POST"
+  }
+}
