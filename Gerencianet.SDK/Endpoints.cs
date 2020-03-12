@@ -19,8 +19,10 @@ namespace Gerencianet.SDK {
 
         public Endpoints (string clientId, string clientSecret, bool sandbox) {
             ClientId = clientId;
-            ClientSecret = clientSecret;
-            endpoints = JObject.Parse (File.ReadAllText ("../Gerencianet.SDK/endpoints.json"));
+            ClientSecret = clientSecret;            
+            string rootDir  = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase.Replace("file://",""));
+            string filePath = System.IO.Path.Combine(rootDir,"endpoints.json");
+            endpoints = JObject.Parse (File.ReadAllText (filePath));
             HttpHelper = new HttpHelper ();
             HttpHelper.BaseUrl = sandbox ? apiBaseSandboxURL : apiBaseURL;
         }
