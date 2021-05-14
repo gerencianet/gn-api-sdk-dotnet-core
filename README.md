@@ -20,14 +20,15 @@ From .NET Cli:
 
 ### Tested with
 ```
-dotnet 5.0.202
+.NET 5.0
+
 ```
 ## Basic usage
 
 ```c#
 using Gerencianet.NETCore.SDK;
 ...
-dynamic endpoints = new Endpoints("client_id", "client_secret", true, "certificate.p12");
+dynamic endpoints = new Endpoints("client_id", "client_secret", true, "production.p12");
             
 var body = new 
 {
@@ -61,7 +62,7 @@ The full documentation with all available endpoints is in https://dev.gerenciane
 
 ## Changelog
 
-[CHANGELOG](CHANGELOG.md)
+[CHANGELOG](CHANGELOG.MD)
 
 ## Contributing
 
