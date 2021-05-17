@@ -1,4 +1,4 @@
-# gn-api-sdk-.net-core
+# gn-api-sdk-dotnet-core
 
 > A .NET Core library for integration of your application with the payment services
 provided by [Gerencianet](http://gerencianet.com.br).
