@@ -13,7 +13,7 @@ using System.Collections.Generic;
 
 namespace Gerencianet.NETCore.SDK {
     public class Endpoints : DynamicObject {
-        private const string version = "2.0.1";
+        private const string version = "2.0.2";
         private static string clientId;
         private static string clientSecret;
         private static JObject endpoints;
