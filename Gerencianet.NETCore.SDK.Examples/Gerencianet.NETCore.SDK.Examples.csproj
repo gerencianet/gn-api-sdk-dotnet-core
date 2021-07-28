@@ -5,7 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.6.0"/>
-    <PackageReference Include="RestSharp" Version="106.11.7"/>
+    <PackageReference Include="RestSharp" Version="106.12.0"/>
     <PackageReference Include="System.Drawing.Common" Version="6.0.0-preview.3.21201.4"/>
     <PackageReference Include="Gerencianet.NETCore.SDK" Version="2.0.1"/>
   </ItemGroup>
