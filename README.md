@@ -23,7 +23,7 @@ From .NET Cli:
 .NET 5.0
 
 ```
-O .NET 5.0 é a versão principal do .NET Core após a versão 3.1. O "Core" foi removido do nome para enfatizar que essa é a implementação principal do .NET no futuro. O .NET 5.0 dá suporte a mais tipos de aplicativos e mais plataformas do que o .NET Core ou .NET Framework.
+O .NET 5.0 é a versão principal do .NET Core após a versão 3.1. O "Core" foi removido do nome para enfatizar que essa é a implementação principal do .NET no futuro. O .NET 5.0 dá suporte a mais tipos de aplicativos e mais plataformas do que o .NET Core ou .NET Framework. Por esse motivo, optamos por concentrar todas as atualizações relacionadas ao dotnet apenas nessa SDK.
 
 ## Basic usage
 
