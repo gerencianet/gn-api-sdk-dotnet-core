@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <Authors>Cecília Devêza, Danniel Hugo, Francisco Thiene, Talita Campos, Thomaz Feitoza, Filipe Mata, Thiago Resende, Diego Alberto, Palloma Brito</Authors>
     <Company>Gerencianet</Company>
     <Description>A .NET Core library for integration of your application with the payment services provided by Gerencianet.</Description>
