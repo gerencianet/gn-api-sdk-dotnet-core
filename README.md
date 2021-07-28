@@ -9,13 +9,13 @@ provided by [Gerencianet](http://gerencianet.com.br).
 From Visual Studio package manager: 
 
 ```bash
-PM> Install-Package Gerencianet.NETCore.SDK -Version 2.0.1
+PM> Install-Package Gerencianet.NETCore.SDK -Version 2.0.2
 ```
 
 From .NET Cli:
 
 ```bash
-> dotnet add package Gerencianet.NETCore.SDK --version 2.0.1
+> dotnet add package Gerencianet.NETCore.SDK --version 2.0.2
 ```
 
 ### Tested with
@@ -23,6 +23,8 @@ From .NET Cli:
 .NET 5.0
 
 ```
+O .NET 5.0 é a versão principal do .NET Core após a versão 3.1. O "Core" do nome foi removido para enfatizar que essa é a implementação principal do .NET no futuro. O .NET 5.0 dá suporte a mais tipos de aplicativos e mais plataformas do que o .NET Core ou .NET Framework.
+
 ## Basic usage
 
 ```c#
