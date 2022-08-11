@@ -1,17 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.6.0"/>
-    <PackageReference Include="RestSharp" Version="106.12.0"/>
-    <PackageReference Include="System.Drawing.Common" Version="6.0.0-preview.3.21201.4"/>
-    <PackageReference Include="Gerencianet.NETCore.SDK" Version="2.0.2"/>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="108.0.1" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+    <PackageReference Include="Gerencianet.NETCore.SDK" Version="3.0.0"/>
   </ItemGroup>
+
   <ItemGroup>
     <Reference Include="System">
       <HintPath>System</HintPath>
     </Reference>
   </ItemGroup>
+
 </Project>
