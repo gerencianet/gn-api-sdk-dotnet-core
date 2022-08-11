@@ -9,13 +9,13 @@ provided by [Gerencianet](http://gerencianet.com.br).
 From Visual Studio package manager: 
 
 ```bash
-PM> Install-Package Gerencianet.NETCore.SDK -Version 2.0.2
+PM> Install-Package Gerencianet.NETCore.SDK -Version 3.0.0
 ```
 
 From .NET Cli:
 
 ```bash
-> dotnet add package Gerencianet.NETCore.SDK --version 2.0.2
+> dotnet add package Gerencianet.NETCore.SDK --version 3.0.0
 ```
 
 ### Tested with
@@ -23,7 +23,11 @@ From .NET Cli:
 .NET 5.0
 
 ```
-O .NET 5.0 é a versão principal do .NET Core após a versão 3.1. O "Core" foi removido do nome para enfatizar que essa é a implementação principal do .NET no futuro. O .NET 5.0 dá suporte a mais tipos de aplicativos e mais plataformas do que o .NET Core ou .NET Framework. Por esse motivo, optamos por concentrar todas as atualizações relacionadas ao dotnet apenas nessa SDK.
+## Atenção
+- O .NET 5.0 é a versão principal do .NET Core após a versão 3.1. O "Core" foi removido do nome para enfatizar que essa é a implementação principal do .NET no futuro. O .NET 5.0 dá suporte a mais tipos de aplicativos e mais plataformas do que o .NET Core ou .NET Framework. Por esse motivo, optamos por concentrar todas as atualizações relacionadas ao dotnet apenas nessa SDK.
+- A Gerencianet está disponibilizando um novo endpoint para requisitar o envio de Pix, este endpoint passará a ter um idEnvio como parâmetro na requisição, além disso o método passa a ser o PUT ao invés do POST para fins de idempotência. O método anterior foi descontinuado e o exemplo foi atualizado.
+- Os endpoints da API Open Finance e API de Pagamentos só estão disponíveis em ambiente de produção. Por este motivo, neste cenário o atributo sandbox é desconsiderado.
+
 
 ## Basic usage
 
