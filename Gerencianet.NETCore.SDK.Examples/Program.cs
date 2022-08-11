@@ -31,7 +31,6 @@ namespace Gerencianet.NETCore.SDK.Examples
             // PixDetailDevolution.Execute();
             // PixListReceived.Execute();
             // PixSend.Execute();
-            // PixSendPut.Execute();
             
             /* PIX - LOCATION */
             // PixCreateLocation.Execute();
