@@ -9,7 +9,7 @@ namespace Gerencianet.NETCore.SDK.Examples {
             dynamic endpoints =  new Endpoints(JObject.Parse (File.ReadAllText ("credentials.json")));
 
             var param = new {
-                id = 1001
+                id = 1
             };
 
             var body = new {
