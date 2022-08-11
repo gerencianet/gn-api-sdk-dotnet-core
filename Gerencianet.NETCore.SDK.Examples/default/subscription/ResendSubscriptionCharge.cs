@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.IO;
 using Newtonsoft.Json.Linq;
 
 namespace Gerencianet.NETCore.SDK.Examples {
-    internal class CreateCarnetHistory {
+    internal class ResendSubscriptionCharge {
         public static void Execute () {
-            
+
             dynamic endpoints =  new Endpoints(JObject.Parse (File.ReadAllText ("credentials.json")));
 
             var param = new {
@@ -13,11 +13,11 @@ namespace Gerencianet.NETCore.SDK.Examples {
             };
 
             var body = new {
-                description = "This carnet is about a service"
+                email = "oldbuck@gerencianet.com.br"
             };
 
             try {
-                var response = endpoints.CreateCarnetHistory (param, body);
+                var response = endpoints.ResendSubscriptionCharge(param, body);
                 Console.WriteLine (response);
             } catch (GnException e) {
                 Console.WriteLine (e.ErrorType);
